@@ -87,13 +87,42 @@ while (x != "sair"):
             c = a/1.6
             print("a distancia  convertida é " + c + "milhas")
         elif (x == 14):
-            print("digite a distancia em milias ")
+            print("digite o angulo em graus ")
             a = float(input())
             c = (a * math.pi)/180
-            print("a distancia  convertida é " + c + "Km")
+            print("a converção de graus para radianos é " + c)
         elif (x == 15):
-            print("digite a distancia em milias ")
+            print("digite o angulo em radianos ")
             a = float(input())
             c = a * 180 /math.pi
-            print("a distancia  convertida é " + c + "Km")
+            print("a converção de radianos para graus é " + c)
+        elif (x == 16):
+            print("digite a polegada para converção ")
+            a = float(input())
+            c = a * 2.54
+            print("a converção de polegada para centimetros é " + c)
+        elif (x == 17):
+            print("digite o valor em centimentros para converção ")
+            a = float(input())
+            c = a / 2.54
+            print("a converção de centimetros para polegada é " + c)
+        elif (x == 18):
+            print("digite o valor em cubicos ")
+            a = float(input())
+            c = 1000 * a
+            print("a converção de cubicos para litros é" + c)
+        elif (x == 19):
+            print("digite o valor em Litros ")
+            a = float(input())
+            c =  a/1000
+            print("a converção de litros para cubicos é" + c)
+        elif (x == 20):
+            print("digite o valor em quilogramas ")
+            a = float(input())
+            c =  a/0.45
+            print("a converção de quilogramas para libras  é" + c)
+
+
+
+
 
